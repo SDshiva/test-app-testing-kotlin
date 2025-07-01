@@ -1,6 +1,6 @@
-package com.shibam.testAppTesting.login_app.domain.usecase
+package com.shibam.testAppTesting.app.features.login.domain.usecase
 
-import com.shibam.testAppTesting.login_app.domain.repository.UserRepository
+import com.shibam.testAppTesting.app.features.login.domain.repository.UserRepository
 
 class LoginUseCase (private val repository: UserRepository) {
     fun execute(username: String, password: String): Boolean {

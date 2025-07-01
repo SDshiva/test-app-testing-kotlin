@@ -1,4 +1,4 @@
-package com.shibam.testAppTesting.login_app.domain.model
+package com.shibam.testAppTesting.app.features.login.domain.model
 
 data class User(
     val userName: String,

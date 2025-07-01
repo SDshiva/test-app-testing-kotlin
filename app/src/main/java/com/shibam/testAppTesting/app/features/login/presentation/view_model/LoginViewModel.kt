@@ -1,10 +1,10 @@
-package com.shibam.testAppTesting.login_app.presentation.view_model
+package com.shibam.testAppTesting.app.features.login.presentation.view_model
 
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.shibam.testAppTesting.login_app.domain.usecase.LoginUseCase
-import com.shibam.testAppTesting.login_app.domain.usecase.RegisterUseCase
+import com.shibam.testAppTesting.app.features.login.domain.usecase.LoginUseCase
+import com.shibam.testAppTesting.app.features.login.domain.usecase.RegisterUseCase
 
 class LoginViewModel (
     private val loginUseCase: LoginUseCase,

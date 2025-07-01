@@ -1,4 +1,4 @@
-package com.shibam.testAppTesting.login_app.presentation.view
+package com.shibam.testAppTesting.app.features.login.presentation.view
 
 import android.os.Bundle
 import android.widget.Button
@@ -6,14 +6,12 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.shibam.testAppTesting.R
-import com.shibam.testAppTesting.login_app.domain.repository.FakeUserRepository
-import com.shibam.testAppTesting.login_app.domain.repository.UserRepository
-import com.shibam.testAppTesting.login_app.domain.usecase.LoginUseCase
-import com.shibam.testAppTesting.login_app.domain.usecase.RegisterUseCase
-import com.shibam.testAppTesting.login_app.presentation.view_model.LoginViewModel
+import com.shibam.testAppTesting.app.features.login.domain.repository.FakeUserRepository
+import com.shibam.testAppTesting.app.features.login.domain.repository.UserRepository
+import com.shibam.testAppTesting.app.features.login.domain.usecase.LoginUseCase
+import com.shibam.testAppTesting.app.features.login.domain.usecase.RegisterUseCase
+import com.shibam.testAppTesting.app.features.login.presentation.view_model.LoginViewModel
 
 class LoginActivity : AppCompatActivity() {
 

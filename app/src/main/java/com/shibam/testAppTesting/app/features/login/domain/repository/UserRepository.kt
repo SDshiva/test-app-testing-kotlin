@@ -1,4 +1,4 @@
-package com.shibam.testAppTesting.login_app.domain.repository
+package com.shibam.testAppTesting.app.features.login.domain.repository
 
 interface UserRepository {
      fun login(username: String, password: String): Boolean
